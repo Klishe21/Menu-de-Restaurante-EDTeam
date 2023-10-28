@@ -54,6 +54,7 @@ const payTicket = money => {
             break
         case (money > user.bill):
             console.log(`Gracias por su compra, su cambio es €${money - user.bill}`)
+            user.bill = 0
             break
         default:
             console.log("Por favor introduzca un monto válido")
