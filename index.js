@@ -1,7 +1,7 @@
 const user = {
-    name: 'Pablo',
-    age: 28,
-    bill: 0,
+  name: 'Pablo',
+  age: 28,
+  bill: 0,
 };
 let pick = [];
 let ticket = 0;
